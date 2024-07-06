@@ -1,0 +1,18 @@
+.navbar {
+    background-color: transparent; /* Transparent background */
+    color: #333333; /* Text color */
+    padding: 30px 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  

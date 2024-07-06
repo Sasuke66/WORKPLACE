@@ -1,0 +1,52 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid #ff69b4; /* Pink border */
+  border-radius: 10px;
+  background-color: #ffe6f2; /* Light pink background */
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background: #282c34;
+  color: white;
+  width: calc(4 * 55px + 3 * 5px); /* Calculating width based on button size and gap */
+  padding: 10px;
+  margin-bottom: 5px; /* Reduced margin */
+  border-radius: 5px;
+}
+
+.input {
+  font-size: 20px;
+  min-height: 30px;
+}
+
+.result {
+  font-size: 24px;
+  min-height: 30px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 55px); /* Adjusted button size to fit better */
+  gap: 5px; /* Reduced gap for a tighter fit */
+}
+
+button {
+  width: 55px; /* Adjusted button width */
+  height: 55px; /* Adjusted button height */
+  font-size: 24px;
+  background: #d81b60; /* Dark pink color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white; /* White text for better contrast */
+}
+
+button:hover {
+  background: #ad1457; /* Darker pink on hover */
+}

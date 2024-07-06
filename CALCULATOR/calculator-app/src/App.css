@@ -1,0 +1,28 @@
+/* .app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffe6f2; /* Light pink background }*/
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('C:\ADI\WORKPLACE\CALCULATOR\calculator-app\Images\scenery.png'); /* Path to your PNG image */
+  background-size: cover; /* Cover the entire screen */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.calculator-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid #ff69b4; /* Pink border */
+  border-radius: 10px;
+  background-color: #dd599b; /* White background to make the calculator stand out */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
