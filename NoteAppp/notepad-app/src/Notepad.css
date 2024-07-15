@@ -1,0 +1,105 @@
+/* src/Notepad.css */
+.notepad {
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #e27a3d; /* Greyish background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .notepad h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .input-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    /* width: 100%; */
+    height: 120px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #b25454;
+    border-radius: 8px;
+    resize: none;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    size: 200px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .notes-list {
+    margin-top: 20px;
+  }
+  
+  .notes-list .note {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #983131;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    transition: transform 0.2s;
+  }
+  
+  .notes-list .note:hover {
+    transform: scale(1.02);
+  }
+  
+  .note-content {
+    flex-grow: 1;
+  }
+  
+  .note-content p {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #1c9fbc;
+  }
+  
+  .note-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .note .edit-button {
+    background-color: #28a745;
+  }
+  
+  .note .edit-button:hover {
+    background-color: #218838;
+  }
+  
+  .note .delete-button {
+    background-color: #dc3545;
+  }
+  
+  .note .delete-button:hover {
+    background-color: #c82333;
+  }
+  
